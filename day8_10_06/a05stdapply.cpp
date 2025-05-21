@@ -20,6 +20,7 @@ int add_three(int x, int y, int z) {
 }
 
 // Helper function to check if a number is prime
+// condition or (i=3; i <= sqrt(n); i+=2) can be used here but its bit costly than current condition
 bool is_prime(int n) {
     if (n <= 1) return false;
     if (n == 2) return true;
